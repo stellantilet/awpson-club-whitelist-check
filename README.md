@@ -3,7 +3,7 @@
 Want to start develop with Solana fetching NFTs from the blockchain or power-up your [Anchor](https://project-serum.github.io/anchor/getting-started/introduction.html) app with UI?   
 This boilerplate can be used to setup your UI with React.JS / Next.JS and deploy it to [Vercel Platform](https://vercel.com/) in just a minutes.
 
-## 🛵 ◍ Demo: https://create-dapp-solana-nextjs.vercel.app/
+## 🛵 ◍ Demo: https://awpson-club.herokuapp.com/
 
 This project includes:
 
