@@ -28,11 +28,7 @@ const Main = () => {
       )}
       <div className="fixed w-full h-full left-0 top-0 flex items-center justify-center">
         <div className="text-center relative max-w-sm">
-          <Animated
-            animationIn="bounceInLeft"
-            animationOut="fadeOut"
-            isVisible={true}
-          >
+          <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible>
             <img
               src={monitorImg.src}
               alt="monitor"
@@ -60,7 +56,7 @@ const Main = () => {
               </div>
             </div>
           </Animated>
-          <Animated animationIn="bounceInUp" animationOut="fadeOut">
+          <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible>
             <WalletMultiButton className="block mx-auto">
               {publicKey ? "" : "Login"}
             </WalletMultiButton>
