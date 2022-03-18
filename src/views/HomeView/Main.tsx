@@ -56,7 +56,7 @@ const Main = () => {
               </div>
             </div>
           </Animated>
-          <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible>
+          <Animated animationIn="bounceInUp" animationOut="fadeOut" isVisible>
             <WalletMultiButton className="block mx-auto">
               {publicKey ? "" : "Login"}
             </WalletMultiButton>
