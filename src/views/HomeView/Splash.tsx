@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import dynamic from "next/dynamic";
 const StarfieldAnimation = dynamic<{ className?: string }>(
+  // @ts-ignore
   () => import("react-starfield-animation"),
   {
     ssr: false,
