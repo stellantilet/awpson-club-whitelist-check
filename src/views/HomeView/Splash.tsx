@@ -1,6 +1,10 @@
 /* eslint-disable @next/next/no-img-element */
 import dynamic from "next/dynamic";
-const StarfieldAnimation = dynamic<{ className?: string }>(
+const StarfieldAnimation = dynamic<{
+  className?: string;
+  numParticles?: number;
+  depth?: number;
+}>(
   // @ts-ignore
   () => import("react-starfield-animation"),
   {
@@ -9,7 +13,6 @@ const StarfieldAnimation = dynamic<{ className?: string }>(
 );
 
 import outsideshipImg from "../../assets/img/outsideship.png";
-import backgroundImg from "../../assets/img/background.jpg";
 
 const Splash = ({
   onEnter,
@@ -19,13 +22,11 @@ const Splash = ({
   enter: boolean;
 }) => {
   return (
-    <div className="container mx-auto max-w-6xl p-8 2xl:px-0 ">
-      <img
-        src={backgroundImg.src}
-        alt="ship"
-        className="fixed w-full h-full left-0 top-0 object-cover"
+    <div className="container mx-auto max-w-6xl p-8 2xl:px-0">
+      <StarfieldAnimation
+        className="fixed w-full h-full left-0 top-0"
+        numParticles={1000}
       />
-      <StarfieldAnimation className="fixed w-full h-full left-0 top-0" />
       <div className="fixed w-full h-full left-0 top-0 flex items-center justify-center">
         <div className="h-4/6 text-center relative container">
           <div className="absolute bottom-0 container">

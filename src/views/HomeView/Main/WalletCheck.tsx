@@ -4,29 +4,27 @@ import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { Fireworks } from "fireworks-js/dist/react";
 import { Animated } from "react-animated-css";
 import { checkWhitelisted } from "utils/whitelist";
-import backgroundImg from "../../assets/img/background.jpg";
-import landingImg from "../../assets/img/landing.png";
-import monitorImg from "../../assets/img/monitor.png";
+import backgroundImg from "../../../assets/img/background.png";
+import monitorImg from "../../../assets/img/monitor.png";
 
-const Main = () => {
+const WalletCheck = () => {
   const { publicKey } = useWallet();
   const publicKeyValue = publicKey ? publicKey.toBase58() : "";
   const isWhiteListed = checkWhitelisted(publicKeyValue);
-
   return (
-    <div className="container mx-auto max-w-6xl p-8 2xl:px-0 ">
+    <div className="relative h-screen w-full">
       <img
         src={backgroundImg.src}
         alt="ship"
-        className="fixed w-full h-full left-0 top-0 object-cover"
+        className="absolute w-full h-full left-0 top-0 object-cover"
       />
       {isWhiteListed && (
         <Fireworks
           options={{ speed: 10, particles: 250 }}
-          className="fixed w-full h-full left-0 top-0 z-0"
+          className="absolute w-full h-full left-0 top-0 z-0"
         />
       )}
-      <div className="fixed w-full h-full left-0 top-0 flex items-center justify-center">
+      <div className="absolute w-full h-full left-0 top-0 flex items-center justify-center">
         <div className="text-center relative max-w-sm">
           <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible>
             <img
@@ -35,7 +33,7 @@ const Main = () => {
               className="object-contain"
             />
             <div
-              className="absolute top-2 left-2 right-2 bg-gray-300 flex items-center justify-center"
+              className="absolute top-2 left-2 right-2 flex items-center justify-center"
               style={{ aspectRatio: "17 / 9" }}
             >
               <div className="py-4 text-center">
@@ -57,7 +55,7 @@ const Main = () => {
             </div>
           </Animated>
           <Animated animationIn="bounceInUp" animationOut="fadeOut" isVisible>
-            <WalletMultiButton className="block mx-auto">
+            <WalletMultiButton className="block mx-auto mt-10 font-sans">
               {publicKey ? "" : "Login"}
             </WalletMultiButton>
           </Animated>
@@ -67,4 +65,4 @@ const Main = () => {
   );
 };
 
-export default Main;
+export default WalletCheck;
