@@ -33,7 +33,7 @@ const WalletCheck = () => {
               className="object-contain"
             />
             <div
-              className="absolute top-2 left-2 right-2 flex items-center justify-center"
+              className="absolute top-5 left-4 right-2 flex items-center justify-center"
               style={{ aspectRatio: "17 / 9" }}
             >
               <div className="py-4 text-center">
@@ -41,12 +41,12 @@ const WalletCheck = () => {
                   <div>
                     {publicKey &&
                       (isWhiteListed ? (
-                        <div className="text-3xl text-green-500 text-green-100">
-                          Whitelisted
+                        <div className="text-2xl text-green-500 text-green-100">
+                          SUCCESS
                         </div>
                       ) : (
-                        <div className="text-3xl text-red-500">
-                          Not Whitelisted
+                        <div className="text-2xl text-red-500">
+                          FAILED
                         </div>
                       ))}
                   </div>

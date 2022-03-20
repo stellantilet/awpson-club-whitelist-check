@@ -7,7 +7,7 @@ module.exports = {
   darkMode: "media", // or 'false' or 'class'
   theme: {
     fontFamily: {
-      sans: ['PressStart2P', 'sans-serif'],
+      sans: ['Open Sans', 'sans-serif'],
       serif: ['PressStart2P', 'serif'],
     },
     extend: {

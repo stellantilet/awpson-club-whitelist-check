@@ -22,7 +22,7 @@ const Splash = ({
   enter: boolean;
 }) => {
   return (
-    <div className="container mx-auto max-w-6xl p-8 2xl:px-0">
+    <div className="container mx-auto max-w-6xl p-8 2xl:px-0 font-sans">
       <StarfieldAnimation
         className="fixed w-full h-full left-0 top-0"
         numParticles={1000}
