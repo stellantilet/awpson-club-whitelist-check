@@ -65,7 +65,7 @@ const RoadMapItem = ({
 const RoadMap = () => {
   return (
     <div className="container mx-auto px-4 py-20 max-w-4xl">
-      <h3 className="text-center text-5xl pb-8">Road Map</h3>
+      <h3 className="text-2xl md:text-3xl text-center pb-8">Road Map</h3>
       <RoadMapContainer>
         <RoadMapItem no={1} date="Apr 2022" title="Initial Drop" left>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
@@ -75,11 +75,11 @@ const RoadMap = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
           quaerat?
         </RoadMapItem>
-        <RoadMapItem no={2} date="July 2022" title="Initial Drop" left>
+        <RoadMapItem no={3} date="July 2022" title="Initial Drop" left>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
           quaerat?
         </RoadMapItem>
-        <RoadMapItem no={2} date="July 2022" title="Initial Drop">
+        <RoadMapItem no={4} date="July 2022" title="Initial Drop">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
           quaerat?
         </RoadMapItem>

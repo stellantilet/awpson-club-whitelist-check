@@ -5,7 +5,9 @@ import { Fireworks } from "fireworks-js/dist/react";
 import { Animated } from "react-animated-css";
 import { checkWhitelisted } from "utils/whitelist";
 import backgroundImg from "../../../assets/img/background.png";
-import monitorImg from "../../../assets/img/monitor.png";
+import smileImg from "../../../assets/img/smile.png";
+import sadImg from "../../../assets/img/sad.png";
+import monitorImg from "../../../assets/img/monitor.gif";
 
 const WalletCheck = () => {
   const { publicKey } = useWallet();
@@ -33,7 +35,7 @@ const WalletCheck = () => {
               className="object-contain"
             />
             <div
-              className="absolute top-5 left-4 right-2 flex items-center justify-center"
+              className="absolute top-20 left-4 right-2 flex items-center justify-center"
               style={{ aspectRatio: "17 / 9" }}
             >
               <div className="py-4 text-center">
@@ -41,12 +43,38 @@ const WalletCheck = () => {
                   <div>
                     {publicKey &&
                       (isWhiteListed ? (
-                        <div className="text-2xl text-green-500 text-green-100">
+                        <div className="text-2xl text-green-200">
                           SUCCESS
+                          <Animated
+                            animationIn="bounceIn"
+                            animationOut="bounceOut"
+                            isVisible
+                          >
+                            <img
+                              src={smileImg.src}
+                              alt="Smile"
+                              width={50}
+                              className="mt-10 mx-auto"
+                            />
+                          </Animated>
                         </div>
                       ) : (
-                        <div className="text-2xl text-red-500">
-                          FAILED
+                        <div className="text-center">
+                          <div className="text-2xl text-red-500 text-center">
+                            FAILED
+                          </div>
+                          <Animated
+                            animationIn="bounceIn"
+                            animationOut="bounceOut"
+                            isVisible
+                          >
+                            <img
+                              src={sadImg.src}
+                              alt="Sad"
+                              width={50}
+                              className="mt-10 mx-auto"
+                            />
+                          </Animated>
                         </div>
                       ))}
                   </div>

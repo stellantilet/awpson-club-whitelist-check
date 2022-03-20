@@ -19,7 +19,7 @@ const FAQItem = ({
 
 const FAQ = () => (
   <div className="container mx-auto px-4 py-10 max-w-5xl">
-    <h3 className="text-2xl mb-8 text-center">Frequently Asked Questions</h3>
+    <h3 className="text-xl md:text-3xl mb-8 text-center">Frequently Asked Questions</h3>
     <FAQContainer>
       <FAQItem title="What is frequently asked in a FAQ?">
         FAQ is most commonly pronounced as an initialism, but may also be

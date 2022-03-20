@@ -1,3 +1,85 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  .explore-button {
+    background-image: url('../assets/img/button.svg');
+    border: none;
+    user-select: none;
+    padding: 11px 16px;
+    font-size: 9px;
+    background-size: 100% 100%;
+    outline: none;
+    cursor: pointer;
+    @apply absolute;
+    @apply text-black;
+  }
+
+  .explore-button.explore-button-space {
+    left: 12%;
+    top: 10%;
+  }
+
+  .explore-button.explore-button-camp {
+    left: 14%;
+    top: 65%;
+  }
+
+  .explore-button.explore-button-zab {
+    left: 35%;
+    top: 19.5%;
+  }
+
+  .explore-button.explore-button-cinema {
+    right: 27%;
+    top: 59%;
+  }
+
+  .location-dialog {
+    font-size: 12px;
+    @apply text-black;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    min-height: 400px;
+    z-index: 10;
+    background-color: transparent !important;
+    background-image: url('../assets/img/book.svg');
+    background-size: 100% 100%;
+    padding: 60px 55px 40px 30px;
+  }
+
+  .rewards-table {
+    @apply mx-auto;
+    @apply mt-4;
+  }
+
+  .rewards-table tr td {
+    padding: 4px 16px;
+  }
+
+  .rewards-table td,
+  .rewards-table th {
+    @apply border;
+    @apply border-black;
+  }
+
+  .rewards-table td,
+  .rewards-table th {
+    @apply border;
+    @apply border-black;
+  }
+
+  .rewards-table td {
+    font-size: 10px;
+  }
+
+  @screen md {
+    .location-dialog {
+      padding: 100px 130px 80px 80px;
+    }
+  }
+}
