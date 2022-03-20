@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import FAQ from "./Faq";
+import FAQ from "./FAQ";
 import Header from "./Header";
 import RoadMap from "./RoadMap";
 import WalletCheck from "./WalletCheck";
