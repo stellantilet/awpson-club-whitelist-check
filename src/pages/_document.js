@@ -6,7 +6,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta name="description" content="AWPSON Club Whitelist Checking" />
+          <meta name="description" content="AWPSON Club x Spaceship Whitelist Checking" />
           <link rel="icon" href="/favicon.ico" />
           <link
             rel="apple-touch-icon"
