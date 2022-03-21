@@ -40,12 +40,27 @@ export const ExploreModal = ({
               x
             </span>
           </h2>
-          <div className="modal-content">
-            <Animated animationIn="fadeInLeft" animationOut="fadeOut" isVisible>
-              <img src={landingImgs[indexRestricted].src} alt="Landing" />
+          <div className="modal-content relative">
+            <Animated
+              animationIn="fadeInLeft"
+              animationOut="fadeOut"
+              isVisible
+              animationInDelay={0}
+              className="relative z-20"
+            >
+              <img
+                src={landingImgs[indexRestricted].src}
+                alt="Landing"
+                className="w-full h-auto"
+              />
             </Animated>
-
-            <Animated animationIn="fadeInUp" animationOut="fadeOut" isVisible>
+            <Animated
+              animationIn="fadeInDown"
+              animationOut="fadeOut"
+              animationInDelay={500}
+              isVisible
+              className="z-10 relative"
+            >
               <table className="rewards-table">
                 <tbody>
                   <tr>
