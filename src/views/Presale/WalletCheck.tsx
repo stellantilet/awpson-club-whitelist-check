@@ -14,7 +14,7 @@ const WalletCheck = () => {
   const publicKeyValue = publicKey ? publicKey.toBase58() : "";
   const isWhiteListed = checkWhitelisted(publicKeyValue);
   return (
-    <div className="bg-dark relative h-screen w-full flex items-center">
+    <div className="bg-black relative h-screen w-full flex items-center">
       {isWhiteListed.wl && (
         <Fireworks
           options={{ speed: 10, particles: 250 }}
@@ -30,11 +30,7 @@ const WalletCheck = () => {
             <img
               src={monitorImg.src}
               alt="monitor"
-              className="border border-white object-contain"
-              style={{
-                borderWidth: "10px 10px 10px 10px",
-                borderRadius: "97% 3% 98% 2%/3% 97% 2% 98%",
-              }}
+              className="border border-white border-8 rounded object-contain"
             />
             <div
               className="absolute left-4 right-2 flex items-center justify-center"

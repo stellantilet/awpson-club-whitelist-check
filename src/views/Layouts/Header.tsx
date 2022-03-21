@@ -101,7 +101,7 @@ const Header = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FaTwitter className="text-purple-500" />
+              <FaTwitter color={"#1F2937"} />
             </a>
             <a
               className="mt-2 lg:mt-0"
@@ -109,7 +109,7 @@ const Header = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FaDiscord className="text-purple-500" />
+              <FaDiscord color={"#1F2937"} />
             </a>
           </div>
         </div>

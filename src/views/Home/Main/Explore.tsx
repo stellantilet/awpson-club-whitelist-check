@@ -128,11 +128,7 @@ const Explore = () => {
           <div style={{ position: "relative" }}>
             <img
               src={landingImg.src}
-              className="border-black w-full h-auto"
-              style={{
-                borderWidth: "10px 10px 10px 10px",
-                borderRadius: "98% 2% 99% 1%/2% 98% 1% 99%",
-              }}
+              className="border-black w-full h-auto border-8 rounded"
               alt="Landing"
             />
             <button
