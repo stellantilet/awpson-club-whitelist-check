@@ -1,7 +1,7 @@
 # Create Solana Dapp with Next.JS
 
 Want to start develop with Solana fetching NFTs from the blockchain or power-up your [Anchor](https://project-serum.github.io/anchor/getting-started/introduction.html) app with UI?   
-This boilerplate can be used to setup your UI with React.JS / Next.JS and deploy it to [Vercel Platform](https://vercel.com/) in just a minutes.
+This boilerplate can be used to setup your UI with React.JS / Next.JS and deploy it to [Heroku Platform](https://heroku.com/) in just a minutes.
 
 ## 🛵 ◍ Demo: https://awpson-club.herokuapp.com/
 
@@ -31,9 +31,9 @@ This app encourage you to use CSS Modules over other style technics (like SASS/L
 It have modular nature and supports modern CSS. [Read more on Next.JS site](https://nextjs.org/docs/basic-features/built-in-css-support).
 Anyway, if you want to connect LESS there is example code in `./next.config.js`
 
-## Deploy on Vercel
+## Deploy on Heroku
 
-Before push run localy `npm run build` to make sure app can be build succesffully on vercel .
+Before push run localy `npm run build` to make sure app can be build succesffully on heroku .
 
-Vercel will automatically create environment and deployment for you if you have vercel account connected to your GitHub account. Go to the vercel.com to connect it.
+Vercel will automatically create environment and deployment for you if you have heroku account connected to your GitHub account. Go to the heroku.com to connect it.
 Then any push to `main` branch will automatically rebuild and redploy app.
