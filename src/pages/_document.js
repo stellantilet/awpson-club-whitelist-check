@@ -37,7 +37,6 @@ class MyDocument extends Document {
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"
           />
-          <title>AWPSONClub x Spaceship</title>
         </Head>
         <body>
           <Main />

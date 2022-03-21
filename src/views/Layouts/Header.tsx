@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { FaDiscord, FaTwitter } from "react-icons/fa";
 import classNames from "classnames";
+import Link from "next/link";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -35,9 +36,11 @@ const Header = () => {
     >
       <nav className="container mx-auto flex items-center justify-between flex-wrap bg-teal-500 p-6">
         <div className="flex items-center flex-shrink-0 text-white mr-6">
-          <span className="tracking-tight">
-            AWPSONClub <span className="hidden sm:inline">x Spaceships</span>
-          </span>
+          <Link href="/">
+            <a className="tracking-tight">
+              AWPSONClub <span className="hidden sm:inline">x Spaceships</span>
+            </a>
+          </Link>
         </div>
         <div className="block lg:hidden">
           <button
@@ -61,22 +64,17 @@ const Header = () => {
           })}
         >
           <div className="text-sm lg:flex-grow lg:text-right">
-            <a
-              href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4"
-            >
-              Whitepaper
-            </a>
-            <a
-              href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4"
-            >
-              Presale
-            </a>
-            <a
-              href="https://twitter.com/awpsonclub"
-              className="relative inline-block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4 rounded bg-gray-800 hover:bg-gray-700 px-2 py-1"
-            >
+            <Link href="/presale">
+              <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4">
+                Whitepaper
+              </a>
+            </Link>
+            <Link href="/presale">
+              <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4">
+                Presale
+              </a>
+            </Link>
+            <a className="relative inline-block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4 rounded bg-gray-800 hover:bg-gray-700 px-2 py-1">
               <div className="absolute font-sans -top-3 -right-4 lowercase px-2 rounded bg-white text-red-400 font-bold">
                 Soon
               </div>
