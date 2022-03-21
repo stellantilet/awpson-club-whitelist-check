@@ -31,7 +31,7 @@ const Header = () => {
     <div
       className={classNames({
         "fixed z-10 w-full bg-black": true,
-        "lg:bg-opacity-80": !isTop,
+        "lg:bg-black": !isTop,
         "lg:bg-transparent": isTop,
       })}
     >
@@ -91,7 +91,7 @@ const Header = () => {
               <div className="absolute font-sans -top-3 -right-4 lowercase px-2 rounded bg-white text-red-400 font-bold">
                 Soon
               </div>
-              APP
+              Staking
             </a>
           </div>
           <div className="flex gap-6 text-3xl lg:ml-4">

@@ -26,7 +26,7 @@ export const ExploreModal = ({
   return (
     <>
       <div
-        className="bg-black fixed left-0 top-0 w-full h-full z-10 opacity-10"
+        className="fixed left-0 top-0 w-full h-full z-10 opacity-10"
         onClick={() => setIsOpen(false)}
       />
       <div className="centered">
@@ -40,12 +40,12 @@ export const ExploreModal = ({
               x
             </span>
           </h2>
-          <div className="modalContent">
-            <Animated animationIn="flipInY" animationOut="fadeOut" isVisible>
+          <div className="modal-content">
+            <Animated animationIn="fadeInLeft" animationOut="fadeOut" isVisible>
               <img src={landingImgs[indexRestricted].src} alt="Landing" />
             </Animated>
 
-            <Animated animationIn="zoomIn" animationOut="fadeOut" isVisible>
+            <Animated animationIn="fadeInUp" animationOut="fadeOut" isVisible>
               <table className="rewards-table">
                 <tbody>
                   <tr>
@@ -119,7 +119,7 @@ const Explore = () => {
   };
 
   return (
-    <div className="bg-black">
+    <div className="bg-dark">
       <div className="max-w-5xl mx-auto px-4 py-20">
         <h2 className="text-xl md:text-3xl text-center mt-2 mb-5">
           Explore Cinephile Valley
@@ -128,7 +128,11 @@ const Explore = () => {
           <div style={{ position: "relative" }}>
             <img
               src={landingImg.src}
-              className="rounded-lg border-black border-8 w-full h-auto"
+              className="border-black w-full h-auto"
+              style={{
+                borderWidth: "10px 10px 10px 10px",
+                borderRadius: "98% 2% 99% 1%/2% 98% 1% 99%",
+              }}
               alt="Landing"
             />
             <button

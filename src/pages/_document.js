@@ -10,24 +10,10 @@ class MyDocument extends Document {
             name="description"
             content="AWPSON Club x Spaceship Whitelist Checking"
           />
-          <link rel="icon" href="/favicon.ico" />
-          <link
-            rel="apple-touch-icon"
-            sizes="180x180"
-            href="/apple-touch-icon.png"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="32x32"
-            href="/favicon-32x32.png"
-          />
-          <link
-            rel="icon"
-            type="image/png"
-            sizes="16x16"
-            href="/favicon-16x16.png"
-          />
+          <link rel="icon" href="/favicon.png" />
+          <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicon.png" />
           <link rel="manifest" href="/site.webmanifest" />
           <link
             href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&amp;display=swap"

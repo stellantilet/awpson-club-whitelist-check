@@ -47,9 +47,15 @@
     min-height: 400px;
     z-index: 10;
     background-color: transparent !important;
-    background-image: url('../assets/img/book.svg');
-    background-size: 100% 100%;
-    padding: 60px 55px 40px 30px;
+    background-image: url('../assets/img/book.gif');
+    background-size: 130% 110%;
+    background-position: 46% 67%;
+    padding: 100px;
+  }
+
+  .modal-content {
+    overflow: hidden;
+    min-height: 100%;
   }
 
   .rewards-table {
@@ -77,15 +83,9 @@
     font-size: 10px;
   }
 
-  @screen md {
-    .location-dialog {
-      padding: 100px 130px 80px 80px;
-    }
-  }
-
   /* width */
   ::-webkit-scrollbar {
-    @apply w-2;
+    width: 4px;
   }
 
   /* Track */
@@ -95,11 +95,11 @@
 
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    @apply bg-purple-500;
+    @apply bg-gray-600;
   }
 
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    @apply bg-purple-400;
+    @apply bg-gray-700;
   }
 }

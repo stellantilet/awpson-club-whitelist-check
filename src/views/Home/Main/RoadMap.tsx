@@ -30,7 +30,7 @@ const RoadMapItem = ({
       <div className="col-start-1 col-end-5 py-4 my-10 ml-auto border-b-2">
         <div className="block md:hidden text-sm mb-2 opacity-80">{date}</div>
         <h3 className="font-semibold text-lg mb-2">{title}</h3>
-        <p className="leading-tight text-sm">{children}</p>
+        <p className="leading-tight text-lg font-sans">{children}</p>
       </div>
     ) : (
       <div className="hidden md:block col-start-1 col-end-5 py-4 my-10 text-right opacity-80">
@@ -52,7 +52,7 @@ const RoadMapItem = ({
       <div className="col-start-6 col-end-10 py-4 my-10 ml-auto shadow-md border-b-2">
         <div className="block md:hidden text-sm mb-2 opacity-80">{date}</div>
         <h3 className="font-semibold text-lg mb-2">{title}</h3>
-        <p className="leading-tight text-sm">{children}</p>
+        <p className="leading-tight text-lg font-sans">{children}</p>
       </div>
     ) : (
       <div className="hidden md:block col-start-6 col-end-12 py-4 my-10 opacity-80">

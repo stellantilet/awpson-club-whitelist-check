@@ -4,7 +4,6 @@ import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { Fireworks } from "fireworks-js/dist/react";
 import { Animated } from "react-animated-css";
 import { checkWhitelisted } from "utils/whitelist";
-import backgroundImg from "../../assets/img/background.png";
 import smileImg from "../../assets/img/smile.png";
 import sadImg from "../../assets/img/sad.png";
 import monitorImg from "../../assets/img/monitor.gif";
@@ -15,12 +14,7 @@ const WalletCheck = () => {
   const publicKeyValue = publicKey ? publicKey.toBase58() : "";
   const isWhiteListed = checkWhitelisted(publicKeyValue);
   return (
-    <div className="relative h-screen w-full flex items-center">
-      <img
-        src={backgroundImg.src}
-        className="absolute h-full w-full left-0 top-0 object-cover"
-        alt="Background"
-      />
+    <div className="bg-dark relative h-screen w-full flex items-center">
       {isWhiteListed.wl && (
         <Fireworks
           options={{ speed: 10, particles: 250 }}
@@ -36,7 +30,11 @@ const WalletCheck = () => {
             <img
               src={monitorImg.src}
               alt="monitor"
-              className="object-contain"
+              className="border border-white object-contain"
+              style={{
+                borderWidth: "10px 10px 10px 10px",
+                borderRadius: "97% 3% 98% 2%/3% 97% 2% 98%",
+              }}
             />
             <div
               className="absolute left-4 right-2 flex items-center justify-center"

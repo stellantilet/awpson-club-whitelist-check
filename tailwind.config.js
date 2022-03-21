@@ -12,8 +12,12 @@ module.exports = {
     },
     extend: {
       colors: {
-        black: "#050F1A",
+        black: "#000000",
+        dark: "#050F1A"
       },
+      transitionProperty: {
+        'height': 'height',
+       }
       // spacing: {
       //   '128': '32rem',
       //   '144': '36rem',
