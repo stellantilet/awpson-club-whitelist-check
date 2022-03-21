@@ -121,8 +121,8 @@ const Explore = () => {
   return (
     <div className="bg-purple-500">
       <div className="max-w-5xl mx-auto px-4 py-20">
-        <h2 className="text-xl md:text-3xl text-center mb-5">Explore Cinephile Valley</h2>
-        <div className="map-wrapper">
+        <h2 className="text-xl md:text-3xl text-center mt-2 mb-5">Explore Cinephile Valley</h2>
+        <div>
           <div style={{ position: "relative" }}>
             <img
               src={landingImg.src}
