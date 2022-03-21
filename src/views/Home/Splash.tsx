@@ -38,7 +38,10 @@ const Splash = ({
   }, []);
 
   return (
-    <div className="fixed w-full h-full left-0 top-0 flex items-center justify-center font-sans" style={{backgroundColor: '#111111'}}>
+    <div
+      className="fixed w-full h-full left-0 top-0 flex items-center justify-center font-sans"
+      style={{ backgroundColor: "#111111" }}
+    >
       <StarfieldAnimation
         className="fixed w-full h-full left-0 top-0"
         numParticles={1000}
@@ -70,7 +73,7 @@ const Splash = ({
           </div>
           <button
             onClick={onEnter}
-            className="px-7 py-2 text-xl rounded bg-gradient-to-r from-gray-800 to-gray-900 hover:to-gray-800 hover:from-gray-700"
+            className="px-7 py-2 text-yellow-800 text-xl rounded bg-black hover:bg-gray-900 font-serif"
           >
             Enter
           </button>

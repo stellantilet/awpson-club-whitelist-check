@@ -13,11 +13,14 @@ module.exports = {
     extend: {
       colors: {
         black: "#000000",
-        dark: "#050F1A"
+        dark: "#050F1A",
+        yellow: {
+          800: "#8F4818",
+        },
       },
       transitionProperty: {
-        'height': 'height',
-       }
+        height: "height",
+      },
       // spacing: {
       //   '128': '32rem',
       //   '144': '36rem',
