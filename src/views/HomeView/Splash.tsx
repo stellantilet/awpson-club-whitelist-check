@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import dynamic from "next/dynamic";
+import { useEffect } from "react";
 const StarfieldAnimation = dynamic<{
   className?: string;
   numParticles?: number;
@@ -17,10 +18,25 @@ import outsideshipImg from "../../assets/img/outsideship.png";
 const Splash = ({
   onEnter,
   enter,
+  ship,
 }: {
   onEnter: () => void;
   enter: boolean;
+  ship: boolean;
 }) => {
+  const handleKeyDown = (event: KeyboardEvent) => {
+    if (event.code == "Enter") {
+      onEnter();
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("keydown", handleKeyDown);
+    return () => {
+      window.removeEventListener("keydown", handleKeyDown);
+    };
+  }, []);
+
   return (
     <div className="container mx-auto max-w-6xl p-8 2xl:px-0 font-sans">
       <StarfieldAnimation
@@ -37,7 +53,9 @@ const Splash = ({
                 className="mx-auto -mb-10"
                 style={{
                   transition: "transform 2s",
-                  transform: !enter
+                  transform: !ship
+                    ? "translate(200%, -150%)"
+                    : !enter
                     ? "translate(0%, 0%)"
                     : "translate(-200%, 150%)",
                 }}
@@ -47,13 +65,13 @@ const Splash = ({
               <div className="text-4xl sm:text-6xl font-bold text-gray-100 tracking-wider mb-10">
                 AWPSONClub x Spaceship
               </div>
-              <div className="text-2xl sm:text-4xl text-gray-300 tracking-wider mb-4">
+              <div className="text-xl sm:text-4xl text-gray-200 tracking-wider mb-4">
                 Only the greatest cinephiles may enter
               </div>
             </div>
             <button
               onClick={onEnter}
-              className="bg-gray-600 px-6 py-2 rounded hover:bg-gray-800 font-bold"
+              className="px-7 py-2 text-xl rounded bg-gradient-to-r from-gray-800 to-gray-900 hover:to-gray-800 hover:from-gray-700"
             >
               Enter
             </button>

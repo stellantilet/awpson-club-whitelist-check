@@ -44,63 +44,63 @@ export const ExploreModal = ({
             <Animated animationIn="flipInY" animationOut="fadeOut" isVisible>
               <img src={landingImgs[indexRestricted].src} alt="Landing" />
             </Animated>
-            
+
             <Animated animationIn="zoomIn" animationOut="fadeOut" isVisible>
-            <table className="rewards-table">
-              <tbody>
-                <tr>
-                  <td>
-                    <img
-                      src={modal1Img.src}
-                      alt="Camp Tokens"
-                      className="w-10"
-                    />
-                  </td>
-                  <td>Camp Tokens</td>
-                  <td>0.5%</td>
-                </tr>
-                <tr>
-                  <td>
-                    <img
-                      src={modal2Img.src}
-                      alt="Money Pouch"
-                      className="w-10"
-                    />
-                  </td>
-                  <td>Money Pouch</td>
-                  <td>0.5%</td>
-                </tr>
-                <tr>
-                  <td>
-                    <img
-                      src={modal3Img.src}
-                      alt="Flash Light"
-                      className="w-10"
-                    />
-                  </td>
-                  <td>Flash Light</td>
-                  <td>0.5%</td>
-                </tr>
-                <tr>
-                  <td>
-                    <img
-                      src={modal4Img.src}
-                      alt="Binoculars"
-                      className="w-10"
-                    />
-                  </td>
-                  <td>Binoculars</td>
-                  <td>0.5%</td>
-                </tr>
-                <tr>
-                  <td>
-                    <img src={modal5Img.src} alt="Compass" className="w-10" />
-                  </td>
-                  <td>Compass</td>
-                  <td>0.5%</td>
-                </tr>
-              </tbody>
-            </table>
+              <table className="rewards-table">
+                <tbody>
+                  <tr>
+                    <td>
+                      <img
+                        src={modal1Img.src}
+                        alt="Camp Tokens"
+                        className="w-10"
+                      />
+                    </td>
+                    <td>Camp Tokens</td>
+                    <td>0.5%</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img
+                        src={modal2Img.src}
+                        alt="Money Pouch"
+                        className="w-10"
+                      />
+                    </td>
+                    <td>Money Pouch</td>
+                    <td>0.5%</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img
+                        src={modal3Img.src}
+                        alt="Flash Light"
+                        className="w-10"
+                      />
+                    </td>
+                    <td>Flash Light</td>
+                    <td>0.5%</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img
+                        src={modal4Img.src}
+                        alt="Binoculars"
+                        className="w-10"
+                      />
+                    </td>
+                    <td>Binoculars</td>
+                    <td>0.5%</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src={modal5Img.src} alt="Compass" className="w-10" />
+                    </td>
+                    <td>Compass</td>
+                    <td>0.5%</td>
+                  </tr>
+                </tbody>
+              </table>
             </Animated>
           </div>
         </div>
@@ -119,9 +119,11 @@ const Explore = () => {
   };
 
   return (
-    <div className="bg-purple-500">
+    <div className="bg-black">
       <div className="max-w-5xl mx-auto px-4 py-20">
-        <h2 className="text-xl md:text-3xl text-center mt-2 mb-5">Explore Cinephile Valley</h2>
+        <h2 className="text-xl md:text-3xl text-center mt-2 mb-5">
+          Explore Cinephile Valley
+        </h2>
         <div>
           <div style={{ position: "relative" }}>
             <img

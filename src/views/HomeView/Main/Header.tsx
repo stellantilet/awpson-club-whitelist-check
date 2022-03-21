@@ -7,13 +7,10 @@ const Header = () => {
   const [isTop, setIsTop] = useState(true);
 
   const handleWindowScrolling = () => {
-    console.log("scrolling", window.scrollY);
     if (window.scrollY === 0) {
       setIsTop(true);
-      console.log("scroll true", isTop);
       return;
     }
-    console.log("scroll false", isTop);
     setIsTop(false);
   };
 
@@ -63,7 +60,7 @@ const Header = () => {
             hidden: !open,
           })}
         >
-          <div className="text-sm lg:flex-grow text-xs">
+          <div className="text-sm lg:flex-grow lg:text-right">
             <a
               href="#responsive-header"
               className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4 mt-2"
@@ -77,9 +74,9 @@ const Header = () => {
               Presale
             </a>
           </div>
-          <div className="flex gap-6 text-3xl">
+          <div className="flex gap-6 text-3xl lg:ml-4">
             <a
-              className="mt-2"
+              className="mt-2 lg:mt-0"
               href="https://twitter.com/awpsonclub"
               target="_blank"
               rel="noreferrer"
@@ -87,7 +84,7 @@ const Header = () => {
               <FaTwitter />
             </a>
             <a
-              className="mt-2"
+              className="mt-2 lg:mt-0"
               href="https://discord.gg/awpson"
               target="_blank"
               rel="noreferrer"

@@ -2,10 +2,11 @@
 import Explore from "./Explore";
 import FAQ from "./FAQ";
 import Header from "./Header";
+import Loading from "./Loading";
 import RoadMap from "./RoadMap";
 import WalletCheck from "./WalletCheck";
 
-const Main = () => {
+const Main = ({ load }: { load: boolean }) => {
   return (
     <>
       <Header />
@@ -13,6 +14,7 @@ const Main = () => {
       <Explore />
       <RoadMap />
       <FAQ />
+      <Loading load={load} />
     </>
   );
 };

@@ -6,7 +6,10 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta name="description" content="AWPSON Club x Spaceship Whitelist Checking" />
+          <meta
+            name="description"
+            content="AWPSON Club x Spaceship Whitelist Checking"
+          />
           <link rel="icon" href="/favicon.ico" />
           <link
             rel="apple-touch-icon"
@@ -27,7 +30,7 @@ class MyDocument extends Document {
           />
           <link rel="manifest" href="/site.webmanifest" />
           <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans&amp;display=swap"
+            href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&amp;display=swap"
             rel="stylesheet"
           />
           <link

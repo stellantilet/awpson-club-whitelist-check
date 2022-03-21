@@ -15,7 +15,9 @@ code {
     monospace;
 }
 
+
 .wallet-adapter-button,
+.wallet-adapter-dropdown,
 .wallet-adapter-modal-title {
-  font-family: PressStart2P !important;
+  font-family: 'Josefin Sans' !important;
 }

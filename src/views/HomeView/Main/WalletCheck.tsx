@@ -20,7 +20,7 @@ const WalletCheck = () => {
         alt="ship"
         className="absolute w-full h-full left-0 top-0 object-cover"
       />
-      {isWhiteListed && (
+      {isWhiteListed.wl && (
         <Fireworks
           options={{ speed: 10, particles: 250 }}
           className="absolute w-full h-full left-0 top-0 z-0"
@@ -42,9 +42,9 @@ const WalletCheck = () => {
                 {publicKey && (
                   <div>
                     {publicKey &&
-                      (isWhiteListed ? (
+                      (isWhiteListed.wl ? (
                         <div className="text-2xl text-green-200">
-                          SUCCESS
+                          {isWhiteListed.swl ? "SUB-WL" : "WL"}
                           <Animated
                             animationIn="bounceIn"
                             animationOut="bounceOut"
@@ -83,7 +83,7 @@ const WalletCheck = () => {
             </div>
           </Animated>
           <Animated animationIn="bounceInUp" animationOut="fadeOut" isVisible>
-            <WalletMultiButton className="block mx-auto mt-10 font-sans">
+            <WalletMultiButton className="block mx-auto mt-10">
               {publicKey ? "" : "Login"}
             </WalletMultiButton>
           </Animated>
