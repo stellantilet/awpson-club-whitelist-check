@@ -30,11 +30,18 @@ const Header = () => {
     <div
       className={classNames({
         "fixed z-10 w-full bg-black": true,
-        "lg:bg-black": !isTop,
+        "lg:bg-opacity-80": !isTop,
         "lg:bg-transparent": isTop,
       })}
     >
-      <nav className="container mx-auto flex items-center justify-between flex-wrap bg-teal-500 p-6">
+      <nav
+        className={classNames({
+          "container mx-auto flex items-center justify-between flex-wrap bg-teal-500 px-6":
+            true,
+          "py-6": isTop,
+          "py-4": !isTop,
+        })}
+      >
         <div className="flex items-center flex-shrink-0 text-white mr-6">
           <Link href="/">
             <a className="tracking-tight">
@@ -78,7 +85,7 @@ const Header = () => {
               <div className="absolute font-sans -top-3 -right-4 lowercase px-2 rounded bg-white text-red-400 font-bold">
                 Soon
               </div>
-              Shop
+              APP
             </a>
           </div>
           <div className="flex gap-6 text-3xl lg:ml-4">

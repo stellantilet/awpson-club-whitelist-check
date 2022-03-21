@@ -17,7 +17,7 @@ const Welcome = () => {
         <div className="font-sans mb-4">Explore, Create, Enjoy.</div>
         <a
           className="inline-block bg-gray-900 hover:bg-gray-800 rounded px-3 py-1"
-          href="https://cinephile.app"
+          // href="https://cinephile.app"
         >
           CINEPHILE.APP
         </a>
