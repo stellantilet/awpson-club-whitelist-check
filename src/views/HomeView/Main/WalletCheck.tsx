@@ -14,7 +14,7 @@ const WalletCheck = () => {
   const publicKeyValue = publicKey ? publicKey.toBase58() : "";
   const isWhiteListed = checkWhitelisted(publicKeyValue);
   return (
-    <div className="relative h-screen w-full">
+    <div className="relative h-screen w-full flex items-center">
       <img
         src={backgroundImg.src}
         alt="ship"
@@ -26,18 +26,18 @@ const WalletCheck = () => {
           className="absolute w-full h-full left-0 top-0 z-0"
         />
       )}
-      <div className="absolute w-full h-full left-0 top-0 flex items-center justify-center">
-        <div className="text-center relative max-w-sm">
+      <div className="container mx-auto relative">
+        <div className="text-2xl md:text-3xl text-center px-4 pt-20 pb-10">
+          Welcome and 555 Spaceships
+        </div>
+        <div className="max-w-sm mx-auto text-center relative">
           <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible>
             <img
               src={monitorImg.src}
               alt="monitor"
               className="object-contain"
             />
-            <div
-              className="absolute top-20 left-4 right-2 flex items-center justify-center"
-              style={{ aspectRatio: "17 / 9" }}
-            >
+            <div className="absolute top-20 left-4 right-2 flex items-center justify-center">
               <div className="py-4 text-center">
                 {publicKey && (
                   <div>
