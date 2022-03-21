@@ -9,6 +9,7 @@ import smileImg from "../../assets/img/smile.png";
 import sadImg from "../../assets/img/sad.png";
 import monitorImg from "../../assets/img/monitor.gif";
 
+
 const WalletCheck = () => {
   const { publicKey } = useWallet();
   const publicKeyValue = publicKey ? publicKey.toBase58() : "";

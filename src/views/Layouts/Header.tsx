@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { FaDiscord, FaTwitter } from "react-icons/fa";
 import classNames from "classnames";
 import Link from "next/link";
+import eyesImg from "../../assets/img/eyes.png";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -81,7 +82,12 @@ const Header = () => {
                 Presale
               </a>
             </Link>
-            <a className="relative inline-block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4 rounded bg-gray-800 hover:bg-gray-700 px-2 py-1">
+            <a
+              className="relative inline-block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4 rounded bg-gray-800 hover:bg-gray-700 px-2 py-1"
+              style={{
+                cursor: `url(${eyesImg.src}), auto`,
+              }}
+            >
               <div className="absolute font-sans -top-3 -right-4 lowercase px-2 rounded bg-white text-red-400 font-bold">
                 Soon
               </div>
