@@ -63,15 +63,24 @@ const Header = () => {
           <div className="text-sm lg:flex-grow lg:text-right">
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4 mt-2"
+              className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4"
             >
               Whitepaper
             </a>
             <a
               href="#responsive-header"
-              className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4 mt-2"
+              className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4"
             >
               Presale
+            </a>
+            <a
+              href="https://twitter.com/awpsonclub"
+              className="relative inline-block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4 rounded bg-gray-800 hover:bg-gray-700 px-2 py-1"
+            >
+              <div className="absolute font-sans -top-3 -right-4 lowercase px-2 rounded bg-white text-red-400 font-bold">
+                Soon
+              </div>
+              Shop
             </a>
           </div>
           <div className="flex gap-6 text-3xl lg:ml-4">
@@ -81,7 +90,7 @@ const Header = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FaTwitter />
+              <FaTwitter className="text-purple-500" />
             </a>
             <a
               className="mt-2 lg:mt-0"
@@ -89,7 +98,7 @@ const Header = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <FaDiscord />
+              <FaDiscord className="text-purple-500" />
             </a>
           </div>
         </div>

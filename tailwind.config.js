@@ -7,13 +7,13 @@ module.exports = {
   darkMode: "media", // or 'false' or 'class'
   theme: {
     fontFamily: {
-      sans: ['Josefin Sans', 'sans-serif'],
-      serif: ['PressStart2P', 'serif'],
+      sans: ["Josefin Sans", "sans-serif"],
+      serif: ["PressStart2P", "serif"],
     },
     extend: {
       colors: {
-        black: '#050F1A'
-      }
+        black: "#050F1A",
+      },
       // spacing: {
       //   '128': '32rem',
       //   '144': '36rem',

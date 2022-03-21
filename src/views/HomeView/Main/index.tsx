@@ -5,13 +5,15 @@ import Header from "./Header";
 import Loading from "./Loading";
 import RoadMap from "./RoadMap";
 import WalletCheck from "./WalletCheck";
+import Welcome from "./Welcome";
 
 const Main = ({ load }: { load: boolean }) => {
   return (
     <>
       <Header />
-      <WalletCheck />
+      <Welcome />
       <Explore />
+      <WalletCheck />
       <RoadMap />
       <FAQ />
       <Loading load={load} />

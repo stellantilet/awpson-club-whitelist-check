@@ -14,12 +14,7 @@ const WalletCheck = () => {
   const publicKeyValue = publicKey ? publicKey.toBase58() : "";
   const isWhiteListed = checkWhitelisted(publicKeyValue);
   return (
-    <div className="relative h-screen w-full flex items-center">
-      <img
-        src={backgroundImg.src}
-        alt="ship"
-        className="absolute w-full h-full left-0 top-0 object-cover"
-      />
+    <div className="relative py-20">
       {isWhiteListed.wl && (
         <Fireworks
           options={{ speed: 10, particles: 250 }}
@@ -27,8 +22,8 @@ const WalletCheck = () => {
         />
       )}
       <div className="container mx-auto relative">
-        <div className="text-2xl md:text-3xl text-center px-4 pt-20 pb-10">
-          Welcome and 555 Spaceships
+        <div className="text-2xl md:text-3xl text-center px-4 pb-10">
+          Presale
         </div>
         <div className="max-w-sm mx-auto text-center relative">
           <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible>
@@ -37,7 +32,10 @@ const WalletCheck = () => {
               alt="monitor"
               className="object-contain"
             />
-            <div className="absolute top-20 left-4 right-2 flex items-center justify-center">
+            <div
+              className="absolute left-4 right-2 flex items-center justify-center"
+              style={{ top: "28%" }}
+            >
               <div className="py-4 text-center">
                 {publicKey && (
                   <div>
@@ -54,7 +52,7 @@ const WalletCheck = () => {
                               src={smileImg.src}
                               alt="Smile"
                               width={50}
-                              className="mt-10 mx-auto"
+                              className="mt-7 mx-auto"
                             />
                           </Animated>
                         </div>
@@ -72,7 +70,7 @@ const WalletCheck = () => {
                               src={sadImg.src}
                               alt="Sad"
                               width={50}
-                              className="mt-10 mx-auto"
+                              className="mt-7 mx-auto"
                             />
                           </Animated>
                         </div>
