@@ -13,7 +13,7 @@ const FAQItem = ({
   toggleOpen = () => {},
 }: {
   title: ReactNode;
-  children: ReactNode;
+  children?: ReactNode;
   active?: boolean;
   toggleOpen?: () => void;
 }) => {
@@ -66,39 +66,53 @@ const FAQ = () => {
 
   return (
     <div className="container mx-auto px-4 py-10 max-w-5xl">
-      <h3 className="text-xl md:text-3xl mb-8 text-center">
-        FAQ
-      </h3>
+      <h3 className="text-xl md:text-3xl mb-8 text-center">FAQ</h3>
       <FAQContainer>
         <FAQItem
-          title="What is project AWPSONClub?"
+          title="What is The AWPSONClub x Spaceships?"
           active={active === 0}
           toggleOpen={() => {
             toggleActive(0);
           }}
         >
-          The AWPSON team is building a unique virtual world where players can
-          stay in their own rooms or together, build their own rooms and watch
-          movies together. We want to bring people together, crypto and
-          non-crypto movie enthusiasts, to create beautiful, meaningful as well
-          as creative things, movie + metaverse platforms in the future, as well
-          as staking in the first round of the first drop spaceships which will
-          be the start-up of the project, low supply + utilities, on the long
-          term this is a utility project that will make passive income for
-          everyone in the project. - 555 uniquely generated spaceships are made
-          by the best space engineers to take the Intergalactiens to their
-          unique rooms.
+          The AWPSONClub x Spaceships is an NFT collection of 555 unique
+          carefully made Spaceships on the Solana Blockchain.
         </FAQItem>
         <FAQItem
-          title="What is the benefit of holding an AWPSONClub NFT?"
+          title="Where will AWPONSClub x Spaceships be minting?"
           active={active === 1}
           toggleOpen={() => {
             toggleActive(1);
           }}
         >
-          <p>- staking, passive income.</p>
-          <p>- access to all upcoming series/movies and platforms. </p>
-          <p>- in the future metagame verse.</p>
+          A Launchpad, haven`t decided yet.
+        </FAQItem>
+        <FAQItem
+          title="How many will I be able to mint?"
+          active={active === 2}
+          toggleOpen={() => {
+            toggleActive(2);
+          }}
+        >
+          You will be able to mint 1 Spaceship per transaction.
+        </FAQItem>
+        <FAQItem
+          title="When is your mint date?"
+          active={active === 3}
+          toggleOpen={() => {
+            toggleActive(3);
+          }}
+        >
+          MARCH 29 - 4 PM UTC
+        </FAQItem>
+        <FAQItem
+          title="What will the mint price be and how will your mint work?"
+          active={active === 4}
+          toggleOpen={() => {
+            toggleActive(4);
+          }}
+        >
+          Mint price TBA, sub/Whitelist only mint.
         </FAQItem>
       </FAQContainer>
     </div>
