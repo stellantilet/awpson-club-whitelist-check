@@ -43,19 +43,42 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    max-width: 700px;
-    min-height: 400px;
+    width: 600px;
+    max-width: 100%;
+    min-height: calc(80vh);
     z-index: 10;
     background-color: transparent !important;
     background-image: url('../assets/img/book.gif');
     background-size: 130% 110%;
     background-position: 46% 67%;
-    padding: 100px;
+    padding: 100px 70px 100px 90px;
+    overflow: hidden;
   }
 
   .modal-content {
-    overflow: hidden;
-    min-height: 100%;
+    position: absolute;
+    top: 15%;
+    left: 13%;
+    bottom: 10%;
+    right: 10.5%;
+    padding: 4px;
+    overflow: auto;
+  }
+
+  .modal-title {
+    @apply text-lg;
+    position: absolute;
+    top: calc(8% - 9px);
+    left: 15%;
+    @apply text-gray-200;
+  }
+
+  .modal-close {
+    position: absolute;
+    top: 7%;
+    right: 7%;
+    cursor: pointer;
+    @apply text-gray-200;
   }
 
   .rewards-table {

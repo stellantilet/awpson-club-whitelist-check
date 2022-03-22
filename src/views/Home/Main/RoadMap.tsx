@@ -102,7 +102,7 @@ const RoadMap = () => {
         <RoadMapItem no={4} date="August 2022" title="Metaverse">
           <ul className="list-disc ml-4">
             <li>
-              Start working on the metaverse, if we do it, we`ll do it right.
+              Start working on the metaverse, if we do it, we&lsquo;ll do it right.
             </li>
             <li>Dropping 25% revenue from royalties to holders.</li>
           </ul>

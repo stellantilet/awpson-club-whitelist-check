@@ -14,15 +14,96 @@ import modal4Img from "../../../assets/img/modal4.png";
 import modal5Img from "../../../assets/img/modal5.png";
 const landingImgs = [landing1Img, landing2Img, landing3Img, landing4Img];
 
+enum ExploreLocation {
+  Space = 0,
+  Camp = 1,
+  Zab = 2,
+  Cinema = 3,
+}
+
+const explores = {
+  [ExploreLocation.Space]: {
+    title: "Space",
+    text: (
+      <div>
+        We are cinephiles, cinema is our home, is the only place we feel safe
+        at. We strive to see beautiful movies, that&lsquo;s why we decided to
+        create a few and become the voice for those who are talented but
+        don&lsquo;t have a voice just yet. If we see great storylines, we will
+        make sure to find a way to crowd-fund and make a dream become reality,
+        give life to something that can live forever. Acting is a way of living,
+        films are here to comfort us when we most needed. The greatest movies
+        are those that you could watch a hundred times and not get bored of.
+      </div>
+    ),
+    image: landing1Img,
+  },
+  [ExploreLocation.Camp]: {
+    title: "Camp",
+    text: (
+      <div>
+        We strive to see beautiful movies, that&lsquo;s why we decided to create
+        a few and become the voice for those who are talented but don&lsquo;t
+        have a voice just yet. If we see great storylines, we will make sure to
+        find a way to crowd-fund and make a dream become reality, give life to
+        something that can live forever. Acting is a way of living, films are
+        here to comfort us when we most needed. The greatest movies are those
+        that you could watch a hundred times and not get bored of. If you are
+        really into a movie congrats you just found your place, welcome to the
+        Club, you can get fully immersed into that world, into the movie world.
+        Hi, world, our world! 🛈According to the study by the University of
+        Maryland, comedies and movies that make people laugh, caused
+        people&lsquo;s blood vessels to dilate by 22%, lowering blood pressure
+        and reducing stress.🛈 I know that there are lots of great movies out
+        there that could make it into major films or perhaps even better than a
+        lot of them out there but are just lying in the major studios&lsquo;
+        trashes, that has to change.
+      </div>
+    ),
+    image: landing2Img,
+  },
+  [ExploreLocation.Zab]: {
+    title: "Zab",
+    text: (
+      <div>
+        We are cinephiles, cinema is our home, is the only place we feel safe
+        at. We strive to see beautiful movies, that&lsquo;s why we decided to
+        create a few and become the voice for those who are talented but
+        don&lsquo;t have a voice just yet. If we see great storylines, we will
+        make sure to find a way to crowd-fund and make a dream become reality,
+        give life to something that can live forever. Acting is a way of living,
+        films are here to comfort us when we most needed. The greatest movies
+        are those that you could watch a hundred times and not get bored of.
+      </div>
+    ),
+    image: landing3Img,
+  },
+  [ExploreLocation.Cinema]: {
+    title: "Cinema",
+    text: (
+      <div>
+        We are cinephiles, cinema is our home, is the only place we feel safe
+        at. We strive to see beautiful movies, that&lsquo;s why we decided to
+        create a few and become the voice for those who are talented but
+        don&lsquo;t have a voice just yet. If we see great storylines, we will
+        make sure to find a way to crowd-fund and make a dream become reality,
+        give life to something that can live forever. Acting is a way of living,
+        films are here to comfort us when we most needed. The greatest movies
+        are those that you could watch a hundred times and not get bored of.
+      </div>
+    ),
+    image: landing4Img,
+  },
+};
+
 export const ExploreModal = ({
   setIsOpen,
   index,
 }: {
   setIsOpen: (isOpen: boolean) => void;
-  index: number;
+  index: ExploreLocation;
 }) => {
-  let indexRestricted = index < 1 ? 0 : index > 4 ? 3 : index - 1;
-
+  const explore = explores[index];
   return (
     <>
       <div
@@ -31,17 +112,12 @@ export const ExploreModal = ({
       />
       <div className="centered">
         <div className="location-dialog">
-          <h2 className="uppercase mb-4">
-            Prision{" "}
-            <span
-              style={{ cursor: "pointer" }}
-              onClick={() => setIsOpen(false)}
-            >
-              x
-            </span>
-          </h2>
-          <div className="modal-content relative">
-            <Animated
+          <h3 className="modal-title">{explore.title}</h3>
+          <span className="modal-close" onClick={() => setIsOpen(false)}>
+            x
+          </span>
+          <div className="modal-content">
+            {/* <Animated
               animationIn="fadeInLeft"
               animationOut="fadeOut"
               isVisible
@@ -49,11 +125,11 @@ export const ExploreModal = ({
               className="relative z-20"
             >
               <img
-                src={landingImgs[indexRestricted].src}
+                src={explore.image.src}
                 alt="Landing"
                 className="w-full h-auto"
               />
-            </Animated>
+            </Animated> */}
             <Animated
               animationIn="fadeInDown"
               animationOut="fadeOut"
@@ -61,7 +137,8 @@ export const ExploreModal = ({
               isVisible
               className="z-10 relative"
             >
-              <table className="rewards-table">
+              {explore.text}
+              {/* <table className="rewards-table">
                 <tbody>
                   <tr>
                     <td>
@@ -115,7 +192,7 @@ export const ExploreModal = ({
                     <td>0.5%</td>
                   </tr>
                 </tbody>
-              </table>
+              </table> */}
             </Animated>
           </div>
         </div>
@@ -149,7 +226,7 @@ const Explore = () => {
             <button
               className="explore-button explore-button-space"
               onClick={() => {
-                toggleModal(1);
+                toggleModal(ExploreLocation.Space);
               }}
             >
               Space
@@ -157,7 +234,7 @@ const Explore = () => {
             <button
               className="explore-button explore-button-camp"
               onClick={() => {
-                toggleModal(2);
+                toggleModal(ExploreLocation.Camp);
               }}
             >
               Camp
@@ -165,7 +242,7 @@ const Explore = () => {
             <button
               className="explore-button explore-button-zab"
               onClick={() => {
-                toggleModal(3);
+                toggleModal(ExploreLocation.Zab);
               }}
             >
               Zab
@@ -173,7 +250,7 @@ const Explore = () => {
             <button
               className="explore-button explore-button-cinema"
               onClick={() => {
-                toggleModal(4);
+                toggleModal(ExploreLocation.Cinema);
               }}
             >
               Cinema
