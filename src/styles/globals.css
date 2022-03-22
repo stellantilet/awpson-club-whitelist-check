@@ -37,7 +37,6 @@
   }
 
   .location-dialog {
-    font-size: 12px;
     @apply text-black;
     position: fixed;
     left: 50%;
@@ -61,8 +60,13 @@
     left: 13%;
     bottom: 10%;
     right: 10.5%;
-    padding: 4px;
+    padding: 4px 16px;
     overflow: auto;
+    font-size: 14px;
+  }
+
+  .modal-content p {
+    margin-bottom: 16px;
   }
 
   .modal-title {
