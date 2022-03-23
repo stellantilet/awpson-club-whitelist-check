@@ -62,7 +62,7 @@ const explores = {
     image: landing2Img,
   },
   [ExploreLocation.Lab]: {
-    title: "lab",
+    title: "Lab",
     text: (
       <div>
         <p>
@@ -255,7 +255,7 @@ const Explore = () => {
                 toggleModal(ExploreLocation.Lab);
               }}
             >
-              Zab
+              Lab
             </button>
             <button
               className="explore-button explore-button-cinema"
