@@ -209,7 +209,7 @@ export default [
   "3ruM8Uvv4EUefMWWfVbqhkmJwgNP5CuweTdKXotf6sZY",
   "AKmfoxa2vjNEFnfECSYgZLWwZys7dGBQkuXxCaGE1JJb",
 
-  // 3/22/2022 11:30
+  // 3/22/2022 11:30 AM
   "EezPmR5oFkBtczB67z5Ub5M4ubUdgAFDbeXHe5Jjaop4",
 
   // 3/23/2022
@@ -218,4 +218,22 @@ export default [
   "98mJUMoDuAXobE2aEJrQ97TB9Nz8bzZqrqAKkTgpRMWi",
   "AyMdwLHWtE6bLvEVhGb43ak2UzqKCoS14Ukc5zBDHerP",
   "3EKp4WaqyMsVaTxAeFVsrYZuojUwVgu5V8yyb5kcU6R3",
+
+  // 3/23/2022 6:02 PM
+  "2pq6TFy9TaroJCBuM5G9xCxvpNBTQ63mK62jehR3efPm",
+  "9ZhGjjoW29rt5prc9WLxdm3zneqqMowDMxLqFcazmUfp",
+  "GpQmWGpZxg2ebj36wY62dPSRddXRiAGVpqFcWTwPMJGz",
+  "2SXEXPmh8LrK69GTnpybMJnAAPmsvpsCeMdstTLNzJPn",
+  "EZw4xSreEB3zHgV3cJF3FEzXocLozogdeFwynkBG7xjx",
+  "6da3GoAUyte25vPfdTt8wRQHgZGbHj92k4Wy8XD9abtv",
+  "7xqxKJ9uxcoorf3bToE5vEYZKbVzp3PgEVKjCs3RHNXX",
+  "Dwnu1n5qJn6ehBenU8jYHk1iLsvHRZsBQP8eKmQvMT8C",
+  "2tUn9bByH8Z3yUkYonBDpMFhMy1vaVTxFpeaL7zajNuQ",
+  "Eq84K31jxr12pyV7cGhMEBqDCTGo2WwtoSYNQtdayAoK",
+  "J19Wioi3aw7FxZuYP3cxUirxb6Lfz97yYXb86XGQnK4z",
+  "5Kv7yDMtsggHeX4bKMt3BphMKkneHAoowjuixvd5c58o",
+  "Ca2zX2Ps2KTyoo56JUKe7c9KvJSzzeTuDLbd8F941mdy",
+  "3EdtXMgCtM7PDq4TQtTPX8WrsvoMr14VjQ1GPDqquSyT",
+  "4A7Dhpj7Dhf6W1W1T56FSAGz1htiq6mX4hpcx49Svv13",
+  "BM6ZJ6VHUTDgALPpUyjbApJWJ2Svb3QMxm8Vp3RTxs2V",
 ];

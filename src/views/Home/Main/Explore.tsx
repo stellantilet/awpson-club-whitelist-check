@@ -17,7 +17,7 @@ const landingImgs = [landing1Img, landing2Img, landing3Img, landing4Img];
 enum ExploreLocation {
   Space = 0,
   Camp = 1,
-  Zab = 2,
+  Lab = 2,
   Cinema = 3,
 }
 
@@ -27,20 +27,16 @@ const explores = {
     text: (
       <div>
         <p>
-          We are cinephiles, cinema is our home, is the only place we feel safe
-          at. We strive to see beautiful movies, that&lsquo;s why we decided to
-          create a few and become the voice for those who are talented but
-          don&lsquo;t have a voice just yet.
+          Space, what can we say about it, it&lsquo;s a dark place but the only
+          amazing one.
         </p>
         <p>
-          If we see great storylines, we will make sure to find a way to
-          crowd-fund and make a dream become reality, give life to something
-          that can live forever.
-        </p>
-        <p>
-          Acting is a way of living, films are here to comfort us when we most
-          needed. The greatest movies are those that you could watch a hundred
-          times and not get bored of.
+          We wanna go there, send the new species Intergalactiens in Space,
+          that&lsquo;s why we created Spaceships, to help them go there, have no
+          limits and no fear, surely while your in space, you can own and have
+          your star, we don&lsquo;t even know how many there are, everyone can
+          have one, isn&lsquo;t that crazy? oh, I almost forgot, I heard the
+          space is silent, no sound at all.
         </p>
       </div>
     ),
@@ -51,55 +47,34 @@ const explores = {
     text: (
       <div>
         <p>
-          We strive to see beautiful movies, that&lsquo;s why we decided to
-          create a few and become the voice for those who are talented but
-          don&lsquo;t have a voice just yet. If we see great storylines, we will
-          make sure to find a way to crowd-fund and make a dream become reality,
-          give life to something that can live forever.
+          The Camp will be created for those and only those who are part and
+          family of AWPSON.
         </p>
         <p>
-          Acting is a way of living, films are here to comfort us when we most
-          needed. The greatest movies are those that you could watch a hundred
-          times and not get bored of. If you are really into a movie congrats
-          you just found your place, welcome to the Club, you can get fully
-          immersed into that world, into the movie world.
-        </p>
-        <p>
-          Hi, world, our world!
-          <br />
-          🛈According to the study by the University of Maryland, comedies and
-          movies that make people laugh, caused people&lsquo;s blood vessels to
-          dilate by 22%, lowering blood pressure and reducing stress.
-        </p>
-        <p>
-          🛈 I know that there are lots of great movies out there that could make
-          it into major films or perhaps even better than a lot of them out
-          there but are just lying in the major studios&lsquo; trashes, that has
-          to change.
+          The Camp is a real-time experience like an event that will take place
+          somewhere on this little planet of ours, to go and have the time of
+          our lives, from real experiences to get to know each other on
+          campfires at night, to really learn and do things together, but most
+          importantly have fun.
         </p>
       </div>
     ),
     image: landing2Img,
   },
-  [ExploreLocation.Zab]: {
-    title: "Zab",
+  [ExploreLocation.Lab]: {
+    title: "lab",
     text: (
       <div>
         <p>
-          We are cinephiles, cinema is our home, is the only place we feel safe
-          at. We strive to see beautiful movies, that&lsquo;s why we decided to
-          create a few and become the voice for those who are talented but
-          don&lsquo;t have a voice just yet.
+          The lab is the place where all the greatest scientists around the
+          world will come to study all the things AWPSONClub is in need.
         </p>
         <p>
-          If we see great storylines, we will make sure to find a way to
-          crowd-fund and make a dream become reality, give life to something
-          that can live forever.
-        </p>
-        <p>
-          Acting is a way of living, films are here to comfort us when we most
-          needed. The greatest movies are those that you could watch a hundred
-          times and not get bored of.
+          They are currently working on the new species named Intergalactiens,
+          Artificial Intelligence humans, their lives will be stored on the ETH
+          blockchain and they will live in all kinds of places, but most
+          importantly in the human heart, they will be created so that they can
+          create something special that might just live forever.
         </p>
       </div>
     ),
@@ -277,7 +252,7 @@ const Explore = () => {
             <button
               className="explore-button explore-button-zab"
               onClick={() => {
-                toggleModal(ExploreLocation.Zab);
+                toggleModal(ExploreLocation.Lab);
               }}
             >
               Zab
