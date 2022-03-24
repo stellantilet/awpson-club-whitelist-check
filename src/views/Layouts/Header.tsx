@@ -72,8 +72,11 @@ const Header = () => {
           })}
         >
           <div className="text-sm lg:flex-grow lg:text-right">
-            <Link href="/presale">
-              <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4">
+            <Link href="https://unkkido.gitbook.io/awpson/">
+              <a
+                className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4"
+                target="_blank"
+              >
                 Whitepaper
               </a>
             </Link>
