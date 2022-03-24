@@ -236,4 +236,10 @@ export default [
   "3EdtXMgCtM7PDq4TQtTPX8WrsvoMr14VjQ1GPDqquSyT",
   "4A7Dhpj7Dhf6W1W1T56FSAGz1htiq6mX4hpcx49Svv13",
   "BM6ZJ6VHUTDgALPpUyjbApJWJ2Svb3QMxm8Vp3RTxs2V",
+
+  // 3/24/2022
+  "BLNpaUx7fow3gi63QuK7Kr5MUtAnokiEB2FmjzUqbAcX",
+  "DezBW1VjxeXRbQzaCTkaQAASBLsJCSNzAsgZ1xvyZqZg",
+  "5FDVjSwcUsa7jJ3FyaYgKurNz9f5XtVLt5SWQoA1Kf1Y",
+  "6s4BFt9UsmVrEBuD99kRkd5zTXjmpTVKD5JVddefdJsU",
 ];

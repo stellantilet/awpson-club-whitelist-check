@@ -481,4 +481,12 @@ export default [
   "An9DKwBU3PscEt1BkEvZgxYSihm6VFJVuGi7uawAYfpn",
   "5h8jq9WmX8km5szoaZ1w42Zd5agwrKdSNxoPKrSnV9J6",
   "4AiohvRJFokAMjxEeyNz4hPe2vWGKfgCRSsi26BYYj2o",
+
+  // 3/24/2022
+  "9RUPeAp4gxUFW7h87HL2tJNonGpQ9Nyny19gP362RAM",
+  "EximTRw9Xn72aXyvWUjyWLd1T8Pg7Cy4QWG7AH6r5Lj3",
+  "B5PxFuc3pDUGHwP8bkpLofBTuVmFEhyDyHwT4YEsrM5v",
+  "CYN3DaHmk9Xydo5W7Nheti2QL99LhfGrWQ8a8GrLQ8RJ",
+  "FGug6Go5a5SVzgp7oriwCU1sKyAgjfgQwjuowzvWSfpF",
+  "H7Q2dTmmBBCFhhbXACm9tPLQDq46uTCvCnH9jjRRjqsw",
 ];
