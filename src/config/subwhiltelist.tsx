@@ -242,4 +242,8 @@ export default [
   "DezBW1VjxeXRbQzaCTkaQAASBLsJCSNzAsgZ1xvyZqZg",
   "5FDVjSwcUsa7jJ3FyaYgKurNz9f5XtVLt5SWQoA1Kf1Y",
   "6s4BFt9UsmVrEBuD99kRkd5zTXjmpTVKD5JVddefdJsU",
+
+  // 3/24/2022 3:23 PM
+  "7sqg6jSkVhFPbWtsMnHYG4hgG2o9AQhYWU93BdSWLBU",
+  "EYqjpoB21p6iR8UvcV9zLEL7dNXMRPBxKBSNGsLucLRW",
 ];
