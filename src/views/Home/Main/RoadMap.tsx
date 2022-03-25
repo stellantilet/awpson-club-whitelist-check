@@ -59,9 +59,9 @@ const RoadMapItem = ({
         <div className="block md:hidden text-sm mb-2 opacity-80">{date}</div>
         <h3 className="font-semibold text-lg mb-2">{title}</h3>
         {children && (
-          <p className="leading-tight text-lg font-sans pb-3 border-b-2">
+          <div className="leading-tight text-lg font-sans pb-3 border-b-2">
             {children}
-          </p>
+          </div>
         )}
       </div>
     ) : (

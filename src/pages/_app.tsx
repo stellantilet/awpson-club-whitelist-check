@@ -1,8 +1,9 @@
-import React from "react";
+import { ConnectionProvider } from "@solana/wallet-adapter-react";
 import type { AppProps } from "next/app";
 import dynamic from "next/dynamic";
-import { ConnectionProvider } from "@solana/wallet-adapter-react";
-
+import { useRouter } from "next/router";
+import React, { useEffect } from "react";
+import ReactGA from 'react-ga';
 import "tailwindcss/tailwind.css";
 import "../styles/globals.css";
 import "../styles/App.css";
@@ -20,6 +21,16 @@ const WalletProvider = dynamic(
 );
 
 function MyApp({ Component, pageProps }: AppProps) {
+  const router = useRouter()
+
+  useEffect(() => {
+    ReactGA.initialize('UA-213622081-1');
+    router.events.on('routeChangeStart', (url) => {
+      ReactGA.pageview(url);
+    })
+    ReactGA.pageview(router.pathname)
+  }, [])
+
   return (
     <ConnectionProvider endpoint={endpoint}>
       <WalletProvider>
