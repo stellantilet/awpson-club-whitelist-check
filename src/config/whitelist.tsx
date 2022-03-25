@@ -489,4 +489,9 @@ export default [
   "CYN3DaHmk9Xydo5W7Nheti2QL99LhfGrWQ8a8GrLQ8RJ",
   "FGug6Go5a5SVzgp7oriwCU1sKyAgjfgQwjuowzvWSfpF",
   "H7Q2dTmmBBCFhhbXACm9tPLQDq46uTCvCnH9jjRRjqsw",
+
+  // 3/25/2022
+  "GAj78U26xNzd5zas87T85sR4GTLexqqZ4e1AcDbfFQPK",
+  "DA2V4wP4pWWXvHy3V3J3YXaQNk3sWZsHEZ7FvxdwfxE1",
+  "BwqTYFrr7qLXJ44VSdaXmZ8AAZchhxBmnXFVaKW1Xucn",
 ];
