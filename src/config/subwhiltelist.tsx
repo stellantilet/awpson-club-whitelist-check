@@ -254,5 +254,7 @@ export default [
   "H9siSXHr2eVPeyASRxegYYD6rEH21UR9nzFoN88ibbu4",
   "6af2kwNLNApaADdSu2PY7eEuhpWE4u45VWhjMLdvQ9A6",
   "FW4K6DmnGMHncExZHhSCewKSv6eQRG4kTaFH1SdRwwV5",
-  "5fhaGEBKmsRaBRtQeqgM1a4u8swLoHRgz2fJAtYdS3WW"
+  "5fhaGEBKmsRaBRtQeqgM1a4u8swLoHRgz2fJAtYdS3WW",
+  "2wCR1WPnTy96k12M8ezaS8Axj9sUwKTBuqk2kJVDceXu",
+  "7S9B5dVDt1VWL3W6FmwRKqn1CGJMA5PdYskV7pmY1how",
 ];
