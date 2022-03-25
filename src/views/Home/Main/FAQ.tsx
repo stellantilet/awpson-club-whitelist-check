@@ -112,7 +112,7 @@ const FAQ = () => {
             toggleActive(4);
           }}
         >
-          Mint price TBA, sub/Whitelist only mint.
+          Mint price 2.77 SOL, sub/Whitelist only mint.
         </FAQItem>
       </FAQContainer>
     </div>
