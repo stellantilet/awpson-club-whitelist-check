@@ -258,4 +258,14 @@ export default [
   "2wCR1WPnTy96k12M8ezaS8Axj9sUwKTBuqk2kJVDceXu",
   "7S9B5dVDt1VWL3W6FmwRKqn1CGJMA5PdYskV7pmY1how",
   "5M9cSpkdg9mZtx7FwM3KBNCPeog2iBbnwyRdxPJ6HuFt",
+
+  "7FHVadsa3HfBqRRjPGGWdRMJGGHs4VLysnCPhbokVUEz",
+  "2qXzAjPQSh9VbJNMPV2N4ynYjuFKRcBZQU1EgpbrGTP1",
+  "AsTwucE6ZfZLCfvAJVGqUR8smaSCaYufBgLXb7MjCie2",
+  "F2WPKhkzfVQXr3Xz3rjw5qR6A32bVrf6sKaf44nebHio",
+  "B4xPXWqnkE9G5EKMU4iSuzvjDTT6L5fGRkbmdYsgWGsG",
+  "7JFLbndVDAsyoSuLeNTHpMM7qy4SFJoa3uCBRVzSKsLL",
+  "5C5gpxCsNmfVyoz8qsBsv1uTwbpiLRKJvH8qwdJQW3ji",
+  "EVMxZksNW12M2uwyET4GpdsC7474wURvaapFxtc4QBNt",
+  "BM6ZJ6VHUTDgALPpUyjbApJWJ2Svb3QMxm8Vp3RTxs2V",
 ];

@@ -495,4 +495,16 @@ export default [
   "DA2V4wP4pWWXvHy3V3J3YXaQNk3sWZsHEZ7FvxdwfxE1",
   "BwqTYFrr7qLXJ44VSdaXmZ8AAZchhxBmnXFVaKW1Xucn",
   "Db965EwDsAhjETcHgREumvL1CupmTZoffu59dFgi7QDK",
+
+  "9ui8nWmA8aqMgY5sb3zS863LwryFU7fK4iF8Rbnrmq1G",
+  "H9VMybEXEgGRMFBn7YU8payQYtb2VtUEdaXiMSQ1ecyy",
+  "BwqTYFrr7qLXJ44VSdaXmZ8AAZchhxBmnXFVaKW1Xucn",
+  "EvD9xs7s5BtuCeeZiTrQr3T3PnKLiCWs11dyC79ngquU",
+  "GbTPAuGbR6Esi4Twi4AQMDxJbpezCb9KAiefRy8nYoG4",
+  "DDqwSyh9iLAcLp5BXKgpUqJaAoKt3SsKz3aR1qGzUwzc",
+  "2BsVWReAPmnkRqpfEmFPX7Syor7dEudfZdJMSsAqkZNB",
+  "GU6TYbJ8zmxHPcHLZHEVsSpwsNL847XjwZU5EFj3js9X",
+  "2tUn9bByH8Z3yUkYonBDpMFhMy1vaVTxFpeaL7zajNuQ",
+  "HHTwPbdBmWTESSsbFTZioAowW7omQpTCd1KFoF5EAncA",
+  "FbfGrZ3LKuGSsayK57DetzzyN7qKeNnDuLMu5bBSocwF",
 ];
