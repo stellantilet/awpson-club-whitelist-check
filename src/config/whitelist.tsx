@@ -508,4 +508,32 @@ export default [
   "HHTwPbdBmWTESSsbFTZioAowW7omQpTCd1KFoF5EAncA",
   "FbfGrZ3LKuGSsayK57DetzzyN7qKeNnDuLMu5bBSocwF",
   "D5pHYwRiq4oPopnEaBxvuUe8nwEUFJb9CNHSjxQyskgU",
+
+  // 3/27/2022
+  "Eqcj2v7LVVCxSJ437Rx6NyCvFHHitpt59WNf89w3phj7",
+  "9kSBarEA5ahGgauZ66HagqQHEJwC6mM3YQwtsYzFtjDP",
+  "EJdATAJacgG51URavzQYb1Asua3FssedaBARDGqjMp1n",
+  "3H4SwS1PR1RSd2TurGSVi3gj5j6yWqxHAyk4JKw7eHmT",
+  "7cj6GRjxtGXYncz3abdq19ggyZavqxVKMux7r4SSrssS",
+  "X8w8ewaiLLhRitVYyF9LDjX4dpEwprXuqYQX7MSUr4V",
+  "HZKD5CmQ4isTZUNt9NgTbKrJhPy1nhFGVWZwjDU4W338",
+  "5d8KyfJeUqDRXc9u9Q8JGKno2RAxNB2V4JgZf2rJ1dry",
+  "EHn9Fo3buJgSCueWjTko79dsTqurorvCQxtMerZ2adWZ",
+  "FruqwozvjdA24z7WmF39NessE2YjKUePbLFeuJyVrG7t",
+
+  "4t8W2FPhAdGo1juvXoStAqJ8NHa9fPhBNG1Pf6FfzAxs",
+  "EzvUpxLawmU4pQL71s63ncJd7NEEEm43AiXegixrWEFQ",
+  "7MyEbxsLcNpwRtaYNrK3fmeG4tvhxA7kj3pFBnuTWF7Y",
+  "5YXY5kdxVGuLRVKLB8JqYMKxdM3v5M2ykB6kT3twj4EY",
+
+  "DgiJQJ5Do1WVrVeD7MHA9fpF3YJcKr6gg2k7hovVvgHx",
+  "5V5GL2K3f62fpvEBFSBFm4JJbwCKvtexCTjwBjs5zpYG",
+  "95a1vSk3BjNJfCGMQVsX4e2qT4F64ozhqG5ReBtjoWhV",
+  "B5ydES9P43389qvJsoY3wTgzhon2ARne2qjJW43RxHxF",
+  "DuqayzsNRNGKzDaPVjtWSmZKM9NS8Km7dL6o9tPvYH3t",
+  "AeEKphHUsX1zPxnhWsniYzV8ViwZGfMFTgH8zPzQ5RXf",
+  "ATH2XpUS4pu2qBnSAZiv4BStNM2R5wnCBBH42CfgjTUW",
+  "EFJyv52ckWb79LaViq5tDV5NKMjC4KdUchvX5uT8Md7D",
+  "4xVP4MXu2KA3bHFJztdHyA38mh6Y8kviULEsM2deovXX",
+  "8yWSbgC9fzS3n2AZoT9tnFb2sHXVYdKS8VHmjE2DLHau",
 ];
