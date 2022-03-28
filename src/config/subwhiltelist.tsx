@@ -303,4 +303,12 @@ export default [
   "CeEaSBXcjTRdXnuUhPPcKF2uB3KjP5sZAHMsHq1NKHRp",
   "J3ioZU5sFtvAwSz51ypCtBkG42GqcRGUwHqxtxMArToi",
   "CRsvFTBAU5eBf2nfqXX6P3oQqfrbcoZrkKbKtpVNiju7",
+
+  "JDgeKxzyKLuSbiUJqsdo79WrSMbnLcD72t5J5tcJj8nr",
+  "23WmpoKrbvmnYFFx9EdbwNnWuYBLkPSawecDEhfL1Aoj",
+  "3x1EW7CozCjrcdWF1o8xHz45Ucm4twk7JSWSsywxXL1M",
+  "GGk6FFxuhLVUkG1YYBTQbEghRV6A8fpy5U5fhJpoAeJ7",
+  "8Z1b8UjVAC2Ng1XtFxJg3BFXEg5Ggvbs9tQ576Son8j5",
+  "5m6kBWC36ssTcQYQbgnxh96hAggRPWwEkF3ooBzf5rnn",
+  "HM9T564T1B7Mbq47ep4bjFWqP3VSCAo7TG5MFiVNv7VZ",
 ];
