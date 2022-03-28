@@ -8,7 +8,7 @@ class MyDocument extends Document {
         <Head>
           <meta
             name="description"
-            content="AWPSON Club x Spaceship Whitelist Checking"
+            content="A Cinephile Valley web3 movie platform, revolution, and change around the cinema industry will happen here. Only the greatest cinephiles may enter."
           />
           <link rel="icon" href="/favicon.png" />
           <link rel="apple-touch-icon" sizes="180x180" href="/favicon.png" />

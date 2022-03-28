@@ -6,7 +6,7 @@ const Presale: NextPage = (props) => {
   return (
     <div>
       <Head>
-        <title>AWPSONClub x Spaceship</title>
+        <title>AWPSONClub x Spaceships - Presale</title>
       </Head>
       <PresaleView />
     </div>
