@@ -93,19 +93,12 @@ const explores = {
         <p>
           If we see great storylines, we will make sure to find a way to
           crowd-fund and make a dream become reality, give life to something
-          that can live forever. Acting is a way of living, films are here to
-          comfort us when we most needed. The greatest movies are those that you
-          could watch a hundred times and not get bored of. We strive to see
-          beautiful movies, that&lsquo;s why we decided to create a few and
-          become the voice for those who are talented but don&lsquo;t have a
-          voice just yet.
+          that can live forever.
         </p>
         <p>
-          If we see great storylines, we will make sure to find a way to
-          crowd-fund and make a dream become reality, give life to something
-          that can live forever. Acting is a way of living, films are here to
-          comfort us when we most needed. The greatest movies are those that you
-          could watch a hundred times and not get bored of.
+          Acting is a way of living, films are here to comfort us when we most
+          needed. The greatest movies are those that you could watch a hundred
+          times and not get bored of.
         </p>
         <p>
           If you are really into a movie congrats you just found your place,
@@ -115,11 +108,13 @@ const explores = {
         <p>
           🛈According to the study by the University of Maryland, comedies and
           movies that make people laugh, caused people&lsquo;s blood vessels to
-          dilate by 22%, lowering blood pressure and reducing stress.🛈 I know
-          that there are lots of great movies out there that could make it into
-          major films or perhaps even better than a lot of them out there but
-          are just lying in the major studios&lsquo; trashes, that has to
-          change.
+          dilate by 22%, lowering blood pressure and reducing stress.
+        </p>
+        <p>
+          🛈 I know that there are lots of great movies out there that could make
+          it into major films or perhaps even better than a lot of them out
+          there but are just lying in the major studios&lsquo; trashes, that has
+          to change.
         </p>
       </div>
     ),
