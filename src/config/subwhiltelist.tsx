@@ -324,4 +324,8 @@ export default [
   "FzhSV4uvzJNR1HtdERvpwqpv1cZG2UHnXQHR9YofU3VV",
   "73yRawATXE3CQ2W4uMG7XtXH8onVRfUxTtxuf3UUfFQ6",
   "4Ptn51ZWJJvd4PpbpScDMjP8SdjJsBxCQDeZYRtqpT7T",
+  "pvznd8x4NvhJjvNfXoUdgVk28MUi23DGZVrFWjjD3kV",
+  "FteNbhGKxXB7CaG9uD1dP6Fn1Wmh9E8BsmcvS4W2T5WE",
+  "GSgDsLzpzwx2TtpNCo6ckDTPRSCfJus3uPhaXLyX79MA",
+  "EgfqWBqaXBj2m4DuNsgigz2hsGx2nxN3zD4vPahpJqaK",
 ];
