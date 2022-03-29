@@ -103,7 +103,7 @@ const FAQ = () => {
             toggleActive(3);
           }}
         >
-          MARCH 29 - 4 PM UTC
+          TBA. All our latest news will be released in our Discord and on Twitter.
         </FAQItem>
         <FAQItem
           title="What will the mint price be and how will your mint work?"
