@@ -1,6 +1,5 @@
 /* eslint-disable import/no-anonymous-default-export */
 export default [
-  // "Gk3eZKsWX7df1H1xngyUHdR9AyYYkyYLauLouT1dwbPN", // test purpose
   "AUR1JpzneAsu1KgR3yPTVK8rRnZMGKAmkU4EBsn47DES",
   "2yf8icSe93Cv2mXYiXtDC7WeqMVC9EKzvyo5JVKWdq6p",
   "BoBz2nfwVTy9HK316x1cKg5DUNAttqDZWwjxfTuHcDys",
@@ -534,7 +533,7 @@ export default [
   "AeEKphHUsX1zPxnhWsniYzV8ViwZGfMFTgH8zPzQ5RXf",
   "ATH2XpUS4pu2qBnSAZiv4BStNM2R5wnCBBH42CfgjTUW",
   "EFJyv52ckWb79LaViq5tDV5NKMjC4KdUchvX5uT8Md7D",
-  "4xVP4MXu2KA3bHFJztdHyA38mh6Y8kviULEsM2deovXX",
+  "DuPjtVJPxnpS3vDTRT54wnrJ4Lwd6f4Q3c7Yx4RTkz4A",
   "8yWSbgC9fzS3n2AZoT9tnFb2sHXVYdKS8VHmjE2DLHau",
 
   "3EKp4WaqyMsVaTxAeFVsrYZuojUwVgu5V8yyb5kcU6R3",
