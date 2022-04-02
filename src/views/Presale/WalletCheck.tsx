@@ -4,15 +4,21 @@ import { WalletMultiButton } from "@solana/wallet-adapter-react-ui";
 import { Fireworks } from "fireworks-js/dist/react";
 import { Animated } from "react-animated-css";
 import { checkWhitelisted } from "utils/whitelist";
-import smileImg from "../../assets/img/smile.png";
-import sadImg from "../../assets/img/sad.png";
+// import smileImg from "../../assets/img/smile.png";
+// import sadImg from "../../assets/img/sad.png";
 import monitorImg from "../../assets/img/monitor.gif";
-
+import monitorSmileImg from "../../assets/img/monitor-smile.gif";
+import monitorSadImg from "../../assets/img/monitor-sad.gif";
 
 const WalletCheck = () => {
   const { publicKey } = useWallet();
   const publicKeyValue = publicKey ? publicKey.toBase58() : "";
   const isWhiteListed = checkWhitelisted(publicKeyValue);
+  const selectedMonitorImg = !publicKey
+    ? monitorImg
+    : isWhiteListed.wl
+    ? monitorSmileImg
+    : monitorSadImg;
   return (
     <div className="bg-black relative h-screen w-full flex items-center">
       {isWhiteListed.wl && (
@@ -28,7 +34,7 @@ const WalletCheck = () => {
         <div className="max-w-sm mx-auto text-center relative">
           <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible>
             <img
-              src={monitorImg.src}
+              src={selectedMonitorImg.src}
               alt="monitor"
               className="border border-white border-8 rounded object-contain"
             />
@@ -39,42 +45,11 @@ const WalletCheck = () => {
               <div className="py-4 text-center">
                 {publicKey && (
                   <div>
-                    {publicKey &&
-                      (isWhiteListed.wl ? (
-                        <div className="text-2xl text-green-200">
-                          {isWhiteListed.swl ? "SUB-WL" : "WL"}
-                          <Animated
-                            animationIn="bounceIn"
-                            animationOut="bounceOut"
-                            isVisible
-                          >
-                            <img
-                              src={smileImg.src}
-                              alt="Smile"
-                              width={50}
-                              className="mt-7 mx-auto"
-                            />
-                          </Animated>
-                        </div>
-                      ) : (
-                        <div className="text-center">
-                          <div className="text-2xl text-red-500 text-center">
-                            FAILED
-                          </div>
-                          <Animated
-                            animationIn="bounceIn"
-                            animationOut="bounceOut"
-                            isVisible
-                          >
-                            <img
-                              src={sadImg.src}
-                              alt="Sad"
-                              width={50}
-                              className="mt-7 mx-auto"
-                            />
-                          </Animated>
-                        </div>
-                      ))}
+                    {publicKey && isWhiteListed.wl && (
+                      <div className="text-2xl text-green-200">
+                        {isWhiteListed.swl ? "SUB-WL" : "WL"}
+                      </div>
+                    )}
                   </div>
                 )}
               </div>

@@ -1,5 +1,6 @@
 /* eslint-disable import/no-anonymous-default-export */
 export default [
+  // "Gk3eZKsWX7df1H1xngyUHdR9AyYYkyYLauLouT1dwbPN", testing purpose
   "AUR1JpzneAsu1KgR3yPTVK8rRnZMGKAmkU4EBsn47DES",
   "2yf8icSe93Cv2mXYiXtDC7WeqMVC9EKzvyo5JVKWdq6p",
   "BoBz2nfwVTy9HK316x1cKg5DUNAttqDZWwjxfTuHcDys",

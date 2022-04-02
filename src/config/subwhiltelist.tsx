@@ -354,4 +354,7 @@ export default [
   "HaKKLFM3vk4CiZCbgRfpMug8Q74e4inqoquQeccAXiPZ",
   "5LxBMqt2sayuzA4FjLrpsxqjrncggVBhVqU9CzDkQWQX",
   "4f7qi8wDKcwpr3XVyqFeTJYnBA5AHD3hM8oft58j8KXA",
+  "CLw6baQXbvesCo3apHKXfZCNuDG3gRFaDgyEecgWseGv",
+  "FRnNFZfosRip72QJKUwPEExsESpe9TLyhEfhhX7NPpZU",
+  "6kCSqwU7jUMJGkMJeWZF8CDEVBrvYWmQLmEnn5YU6eo8",
 ];
