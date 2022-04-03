@@ -110,6 +110,11 @@
     font-size: 10px;
   }
 
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: bg-gray-600 bg-black;
+  }
+
   /* width */
   ::-webkit-scrollbar {
     width: 4px;
