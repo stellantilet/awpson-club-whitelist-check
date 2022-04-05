@@ -558,4 +558,6 @@ export default [
   "81t88z685WagPwgxjgJVMKrrHgy17arGzbM8mc8D3Sko",
   "8okX4weSwCnEEi35EG57a1fWt3cS4ESBqxRLHJa11QPB",
   "B4xPXWqnkE9G5EKMU4iSuzvjDTT6L5fGRkbmdYsgWGsG",
+  "BSyRUR4aCV1iRENvEPCnF5QjGzfjLyqVr2eB3x79fvxK",
+  "HF7sfrBVRbMaEY8sKnBvAKiZqoupU3tdgsGtyCHya492",
 ];
