@@ -367,4 +367,6 @@ export default [
   "C6MbVeEZz6PhQx2DdrUgTX3CLGQ1jXuDYvT6XRFfNSLH",
   "4V4NZZLegAJPdZ1tW67Xybbjt2PpcbQPMdx5Bk3V4SP8",
   "CCq8PWC2EuZeAdKB6dQomfMhNxZv83vKSoydxASc8wZW",
+  "5Zp8dpZNCkwxTYhULQKvwvYqdjuTa3uc6R8gYUA95Bjt",
+  "84JU82xRwPUhTPbwGVvPVobUbdpzE8BBqogVa49NphgE",
 ];

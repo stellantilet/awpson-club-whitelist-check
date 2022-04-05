@@ -555,4 +555,7 @@ export default [
   "8r3cxRGq3m6NWrBEJ2WqYgFQQK1VN8YgbW6gGp5Cd1NK",
   "3C5ovSc6aq1HnpP7q2cr8SoagnaAs49pFEvDL4bUzB8C",
   "4aiaNpNisAPgRp6ZHG39F9rnBSSVEyouj72AiLX2DWMy",
+  "81t88z685WagPwgxjgJVMKrrHgy17arGzbM8mc8D3Sko",
+  "8okX4weSwCnEEi35EG57a1fWt3cS4ESBqxRLHJa11QPB",
+  "B4xPXWqnkE9G5EKMU4iSuzvjDTT6L5fGRkbmdYsgWGsG",
 ];
