@@ -565,5 +565,8 @@ export default [
   "DovBKcgMDtpgNchGydRbeXFi3wdpGRcihAMYExRTXqce",
   "7oQExPsMi7bQ4mgbCgsJ7A9rnCNX4jRPudo8uqwtRUM9",
   "CcDR9rx5uDh2vg1oSMk6Ub9xpFyeBkHbxnaS1vLCdNez",
-  "0xAa2d7a884A34FddEe7918CAAe453182C1BDA8886",
+  "5NpvhJMiJUrCBF5hxV5M2RWnk44B3gvKeWQsTGWFQ2ag",
+  "HUvh9LTqHp12ccR1veaKry48yJgVqpJA4B6joT92nv3X",
+  "3phpKaxe7Xak7DmWPcz8qhYGbMhrj8bSpcNTEdJRsdCq",
+  // 04/06/2022 unkkido added.
 ];
