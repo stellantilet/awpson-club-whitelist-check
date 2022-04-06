@@ -411,5 +411,7 @@ export default [
   "EnLnj2XLZf9BXzw5bX5AeRCWNbELKQzQN21rWP657JGo",
   "8K8BpufhY2P9ACikAhgMg8iF859MZnpsGFZAPxS2mVug",
   "6rZF68zcZQiHdsC5HhwaCZqup78guV49cFUCggxReDki",
+  "wVmRHEGAJ6otqP21C4Z4KX9RQ8mE5zVMRzAhy28MZKC",
+  "8ofvNgXGfJx5dzsCqHXjSzuEQboy9LwhhzURk6rfPmUy",
     // 4/6/2022 unkkido added.
 ];
