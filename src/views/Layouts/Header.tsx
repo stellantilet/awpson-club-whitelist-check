@@ -98,7 +98,7 @@ const Header = () => {
                 Staking
               </a>
             </Link>
-            <Link href="https://mint.awpson.com">
+            <Link href="https://mint-awpson.hostman.site/">
               <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4" target="_blank">
                 Mint
               </a>
