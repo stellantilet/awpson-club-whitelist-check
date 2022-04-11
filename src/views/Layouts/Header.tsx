@@ -85,17 +85,24 @@ const Header = () => {
                 Presale
               </a>
             </Link>
-            <a
-              className="relative inline-block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4 rounded bg-gray-800 hover:bg-gray-700 px-2 py-1"
-              style={{
-                cursor: `url(${eyesImg.src}), auto`,
-              }}
-            >
-              <div className="absolute font-sans -top-3 -right-4 lowercase px-2 rounded bg-white text-red-400 font-bold">
-                Soon
-              </div>
-              Staking
-            </a>
+            <Link href="">
+              <a
+                className="relative inline-block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4 rounded bg-gray-800 hover:bg-gray-700 px-2 py-1"
+                style={{
+                  cursor: `url(${eyesImg.src}), auto`,
+                }}
+              >
+                <div className="absolute font-sans -top-3 -right-4 lowercase px-2 rounded bg-white text-red-400 font-bold">
+                  Soon
+                </div>
+                Staking
+              </a>
+            </Link>
+            <Link href="https://mint.awpson.com">
+              <a className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4" target="_blank">
+                Mint
+              </a>
+            </Link>
           </div>
           <div className="flex gap-6 text-3xl lg:ml-4">
             <a
