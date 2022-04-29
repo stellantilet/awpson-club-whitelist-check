@@ -96,9 +96,7 @@ const Header = () => {
             </Link>
            <Link href="https://mint.creatormachine.com/awpson">
               <a
-                className="relative inline-block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4 rounded bg-gray-800 hover:bg-gray-700 px-2 py-1"
-               
-              >
+                className="relative inline-block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white lg:mx-4 rounded bg-gray-800 hover:bg-gray-700 px-2 py-1">
                 <div className="absolute font-sans -top-3 -right-4 lowercase px-2 rounded bg-white text-red-400 font-bold">
                   NOW
                 </div>
